@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #18181a;
+}
+.container{
+    background-color: #242527;
+    color: white;
+    border-radius: 10px;
+    margin: 30px;
+    border-color: #424242;
+}
+
+.title{
+    color: #5959f8;
+    font-size: 40px;
+    font-family: 'Rampart One', cursive;
+}
+
+.txt_description{
+    font-size: 25px;
+    margin-bottom:20px;
+}
+td{
+    padding: 10px;
+    font-size: 20px;
+}
